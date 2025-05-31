@@ -22,5 +22,5 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
 1 | Satish Yadav | Student | CSE  | Rajkiya Engineering College  | satishg8055@gmail.com
 2 | Manish Singh  | Student  | CSE | Rajkiya Engineering College  | singh632006@gmail.com
-3 | Shubham Yadav | Student | CSE  |Rajkiya Engineering College  |shubhamyadav2004 @gmail.com
-4 | Shani Verma  | Student  | CSE | Rajkiya Engineering College  |shaniverma2843343 @gmail.com
+3 | Shubham Yadav | Student | CSE  |Rajkiya Engineering College  |shubhamyadav2004@gmail.com
+4 | Shani Verma  | Student  | CSE | Rajkiya Engineering College  |shaniverma2843343@mail.com
