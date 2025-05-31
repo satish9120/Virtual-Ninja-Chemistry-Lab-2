@@ -1,2 +1,2 @@
 ## Experiment name
-to perform qualitative tests on carbohydrates 
+To Perform Qualitative Tests On Carbohydrates 
