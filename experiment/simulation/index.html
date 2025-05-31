@@ -1,13 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Virtual Chemistry Lab – Carbohydrate Tests</title>
+  <!-- Add CSS at the head of HTML file -->
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-		<!-- Your code goes here-->
+  <!-- Your code goes here-->
+  <header>Interactive Virtual Chemistry Lab – Qualitative Tests for Carbohydrates</header>
+  <aside id="sidebar" aria-label="Controls and test selection">
+    <h2 for="sample-select">Carbohydrate Sample</h2>
+    <label for="sample-select" id="label-sample">Select Carbohydrate Sample:</label>
+    <select id="sample-select" aria-labelledby="label-sample">
+      <option value="" selected disabled>Select a sample...</option>
+      <option value="glucose">Glucose</option>
+      <option value="fructose">Fructose</option>
+      <option value="sucrose">Sucrose</option>
+      <option value="starch">Starch</option>
+      <option value="ribose">Ribose</option>
+    </select>
+    <h2>Qualitative Tests</h2>
+    <div id="tests-list" role="list" aria-label="List of qualitative tests">
+      <button role="listitem" data-test="benedict">Benedict's Test</button>
+      <button role="listitem" data-test="iodine">Iodine Test</button>
+      <button role="listitem" data-test="molisch">Molisch's Test</button>
+      <button role="listitem" data-test="barfoed">Barfoed's Test</button>
+      <button role="listitem" data-test="seliwanoff">Seliwanoff's Test</button>
+      <button role="listitem" data-test="bial">Bial's Test</button>
+      <button role="listitem" data-test="fehling">Fehling's Test</button>
+    </div>
+    <button id="reset-button" aria-label="Reset the experiment">Reset Experiment</button>
+  </aside>
+  <main id="lab-area" aria-label="Laboratory workspace">
+    <section id="lab-bench" aria-label="Lab bench with test tube and reagents">
+      <div id="test-tube" aria-label="Test tube" aria-live="polite" tabindex="0">
+        <div id="tube-content"></div>
+        <div id="tube-precipitate"></div>
+      </div>
+      <button id="heat-button" disabled aria-label="Heat test tube contents">Heat 🔥</button>
+      <div id="flame" aria-hidden="true"></div>
+      <div id="water-bath" aria-hidden="true"><div id="water-level"></div></div>
+      <div id="reagents-container" aria-label="Available reagents" tabindex="0"></div>
+    </section>
+  </main>
+  <section id="observation-panel" aria-live="polite" aria-atomic="true">
+    <h2>Observation & Explanation</h2>
+    <div id="observation-text" tabindex="0">Select a carbohydrate sample and test to begin.</div>
+    <div id="explanation-text"></div>
+  </section>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+  <!-- Add JS at the bottom of HTML file --> 
+  <script src="./js/main.js"></script>
 </body>
 </html>

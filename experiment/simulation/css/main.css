@@ -1,1 +1,367 @@
-/* You CSS goes in here */
+/* You CSS goes in here */@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 280px 1fr 320px;
+  grid-template-rows: 60px 1fr;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+  background: #f0f8ff;
+  color: #1a1a1a;
+}
+header {
+  grid-column: 1 / 4;
+  background: #26547c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 0.2);
+}
+#sidebar {
+  background: #3f72af;
+  color: white;
+  padding: 20px 24px;
+  overflow-y: auto;
+}
+#sidebar h2 {
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #112d4e;
+  padding-bottom: 6px;
+  user-select: none;
+}
+#sidebar label {
+  font-weight: 600;
+  display: block;
+  margin: 12px 0 6px 0;
+}
+select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  outline-offset: 2px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  background: #3f72af;
+  color: white;
+  box-shadow: inset 1px 1px 5px #224d75;
+}
+select:focus {
+  outline: 3px solid #112d4e;
+}
+#tests-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#tests-list button {
+  background-color: #dbe9ff;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #26547c;
+  box-shadow: 0 3px 5px #1b3a5aaa;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  user-select: none;
+}
+#tests-list button.active,
+#tests-list button:hover {
+  background-color: #112d4e;
+  color: #f0faff;
+  box-shadow: 0 5px 12px #29589e88;
+}
+#lab-area {
+  padding: 20px 30px;
+  background: #f9fafb;
+  position: relative;
+  overflow: hidden;
+}
+#lab-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #26547c;
+  margin-bottom: 12px;
+  user-select: none;
+}
+#lab-bench {
+  position: relative;
+  width: 100%;
+  height: 460px;
+  background: linear-gradient(180deg, #e0f1fc 0%, #accbee 100%);
+  border-radius: 18px;
+  box-shadow: inset 0 4px 8px #98bbe6;
+  overflow: visible;
+}
+#test-tube {
+  position: absolute;
+  width: 60px;
+  height: 220px;
+  bottom: 70px;
+  left: 180px;
+  border: 5px solid #24486a;
+  border-radius: 60px 60px 28px 28px;
+  background: linear-gradient(to bottom, #eef7ff 0%, #a2c1e0 45%, #57789d 90%);
+  box-shadow:
+    inset 0 30px 40px #a2c1e0cc,
+    inset 0 -15px 60px #42618fcc,
+    0 10px 15px #234466aa;
+  cursor: default;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: visible;
+}
+#tube-content {
+  width: 100%;
+  height: 60%;
+  border-radius: 0 0 50px 50px;
+  background-color: transparent;
+  box-shadow: inset 0 0 20px transparent;
+  transition: background-color 1.2s ease, box-shadow 1.2s ease;
+  pointer-events: none;
+  position: relative;
+}
+#tube-precipitate {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  height: 25px;
+  border-radius: 30px/12px;
+  background-color: transparent;
+  box-shadow: none;
+  pointer-events: none;
+  transition: background-color 1s ease, box-shadow 1s ease;
+  z-index: 10;
+  left: 5%;
+}
+#heat-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  background-color: #d9534f;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px #b33731aa;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  user-select:none;
+  z-index: 20;
+}
+#heat-button:disabled {
+  background-color: #cc8c8b;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+#flame {
+  position: absolute;
+  bottom: 22px;
+  left: 27px;
+  width: 40px;
+  height: 0px;
+  border-radius: 50% 50% 20% 20%;
+  background: linear-gradient(to top, #ff7800, #ffef00);
+  box-shadow: 0 0 20px #ff9d00, 0 0 40px #ffc600;
+  pointer-events: none;
+  opacity: 0;
+  transition: height 0.4s ease 0.2s, opacity 0.3s ease;
+  z-index: 15;
+}
+#flame.active {
+  opacity: 1;
+  height: 48px;
+  animation: flicker 1.2s infinite alternate;
+}
+@keyframes flicker {
+  0% {height: 42px; opacity: 1;}
+  100% {height: 52px; opacity: 0.9;}
+}
+#water-bath {
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+  width: 130px;
+  height: 80px;
+  border-radius: 20px 20px 6px 6px;
+  background-color: #8ec6f6a0;
+  border: 4px solid #1771d0;
+  box-shadow: inset 0 2px 10px #82b0e8aa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+  user-select: none;
+  z-index: 12;
+}
+#water-bath.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+#water-level {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  background: linear-gradient(to top, #a2c8f3e0, #57a2fdcc);
+  border-radius: 0 0 20px 20px;
+  box-shadow: inset 0 0 10px #66b1f766;
+  user-select: none;
+}
+#reagents-bar {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  user-select: none;
+  max-height: 110px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+.reagent-bottle {
+  cursor: grab;
+  background: linear-gradient(135deg, #acd6ff, #306fd4);
+  border-radius: 14px;
+  width: 80px;
+  height: 110px;
+  box-shadow: 0 7px 12px #3162adcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #15497a;
+  font-weight: 700;
+  user-select: none;
+  position: relative;
+  transition: transform 0.2s ease;
+  border: 2px solid transparent;
+  overflow: hidden;
+  padding: 8px 6px;
+  text-align: center;
+}
+.reagent-bottle:active, .reagent-bottle.dragging {
+  cursor: grabbing;
+  transform: scale(1.15);
+  box-shadow: 0 12px 20px #1e3e7ecc;
+  border-color: #183e6f;
+  z-index: 50;
+}
+.reagent-emoji {
+  font-size: 48px;
+  user-select: none;
+  pointer-events: none;
+  margin-bottom: 8px;
+  filter: drop-shadow(0 0 1px #233d5baa);
+}
+.reagent-name {
+  font-size: 0.85rem;
+  pointer-events: none;
+  line-height: 1.2;
+  user-select: none;
+  width: 100%;
+}
+#reagents-container {
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  right: 20px;
+  max-height: 140px;
+  background: #e8f2fdcc;
+  box-shadow: inset 0 0 8px #acc9f0aa;
+  border-radius: 20px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  z-index: 11;
+}
+#observation-panel {
+  padding: 22px;
+  background: white;
+  box-shadow: 0 6px 18px #243c5c44;
+  border-radius: 14px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+}
+#observation-panel h2 {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  color: #26547c;
+  user-select: none;
+}
+#observation-text {
+  flex-grow: 1;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #1a1a1a;
+  white-space: pre-line;
+  background: #e9f1ff;
+  border-radius: 12px;
+  padding: 15px 18px;
+  box-shadow: inset 0 2px 8px #acbfdfff;
+  user-select: text;
+}
+#explanation-text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #264c7a;
+  background: #f2f9ff;
+  padding: 14px 18px;
+  border-radius: 12px;
+  box-shadow: inset 0 1px 6px #acc1e3aa;
+  user-select: text;
+}
+#reset-button {
+  grid-column: 3;
+  align-self: start;
+  margin: 14px 20px 0 0;
+  padding: 10px 18px;
+  background: #ff6b6b;
+  border: none;
+  border-radius: 14px;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #cc4747cc;
+  transition: background 0.3s ease;
+  user-select: none;
+}
+#reset-button:hover {
+  background: #e04646;
+}
+/* Scrollbar for reagents container */
+#reagents-container::-webkit-scrollbar {
+  height: 8px;
+}
+#reagents-container::-webkit-scrollbar-thumb {
+  background: #2b4578cc;
+  border-radius: 4px;
+}
