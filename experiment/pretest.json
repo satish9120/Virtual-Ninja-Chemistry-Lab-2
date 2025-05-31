@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which reagent is commonly used to test for the presence of reducing sugars?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Biuret reagent",
+        "b": "Benedict’s reagent",
+        "c": "Iodine solution",
+        "d": "Fehling’s solution"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Biuret reagent is used for proteins.",
+        "b": "Correct. Benedict’s reagent is used for reducing sugars. <a href='https://en.wikipedia.org/wiki/Benedict%27s_reagent'>Learn more</a>",
+        "c": "Iodine tests for starch, not reducing sugars.",
+        "d": "Fehling’s is also used for reducing sugars but less commonly than Benedict’s."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What color indicates a positive Benedict's test for glucose?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Blue",
+        "b": "Green",
+        "c": "Brick red",
+        "d": "Purple"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Blue is the original color of the reagent.",
+        "b": "Green may appear with small amounts of sugar.",
+        "c": "Correct. A brick red precipitate confirms a positive result. <a href='https://www.sciencefacts.net/benedicts-test.html'>See more</a>",
+        "d": "Purple is associated with protein tests."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which test is used to detect the presence of starch?",
+      "answers": {
+        "a": "Molisch's test",
+        "b": "Iodine test",
+        "c": "Benedict's test",
+        "d": "Barfoed’s test"
+      },
+      "explanations": {
+        "a": "Molisch's test is for all carbohydrates.",
+        "b": "Correct. The iodine test shows a blue-black color with starch. <a href='https://en.wikipedia.org/wiki/Iodine_test'>Reference</a>",
+        "c": "Benedict's test is for reducing sugars.",
+        "d": "Barfoed’s test is for monosaccharides."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Barfoed’s test distinguishes between:",
+      "answers": {
+        "a": "Starch and cellulose",
+        "b": "Proteins and lipids",
+        "c": "Monosaccharides and disaccharides",
+        "d": "Reducing and non-reducing sugars"
+      },
+      "explanations": {
+        "a": "This is not the purpose of Barfoed’s test.",
+        "b": "Unrelated to carbohydrate testing.",
+        "c": "Correct. Barfoed’s test is used to distinguish monosaccharides from disaccharides. <a href='https://microbiologyinfo.com/barfoeds-test-principle-reagents-procedure-results/'>Learn more</a>",
+        "d": "Benedict’s or Fehling’s test is used for that."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the principle of Molisch’s test?",
+      "answers": {
+        "a": "Detection of amino acids",
+        "b": "Formation of a violet ring with carbohydrates",
+        "c": "Formation of brick-red precipitate",
+        "d": "Blue-black color with starch"
+      },
+      "explanations": {
+        "a": "Incorrect. That relates to protein tests.",
+        "b": "Correct. Molisch’s test gives a violet ring when carbohydrates react with α-naphthol and sulfuric acid. <a href='https://microbiologyinfo.com/molischs-test-principle-reagents-procedure-and-results/'>More info</a>",
+        "c": "That describes Benedict’s test.",
+        "d": "That is for iodine-starch interaction."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

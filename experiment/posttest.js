@@ -87,29 +87,59 @@
 
 /////////////// Write the MCQ below in the exactly same described format ///////////////
 
-
-  const myQuestions = [
-    {
-      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
-      answers: {
-        a: " double",                  ///// Write the option 1 inside double quotes
-        b: "four times",                  ///// Write the option 2 inside double quotes
-        c: "eight times",                  ///// Write the option 3 inside double quotes
-        d: "sixteen times"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+const myQuestions = [
+  {
+    question: "1. Which reagent is used in the Molisch’s test for carbohydrates?", 
+    answers: {
+      a: "Iodine solution", 
+      b: "Alpha-naphthol", 
+      c: "Benedict’s solution", 
+      d: "Fehling’s solution"
     },
+    correctAnswer: "b"
+  },
+  {
+    question: "2. A positive iodine test gives which color with starch?", 
+    answers: {
+      a: "Red", 
+      b: "Blue-black", 
+      c: "Green", 
+      d: "Yellow"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "3. Which of the following tests distinguishes between reducing and non-reducing sugars?", 
+    answers: {
+      a: "Molisch’s test", 
+      b: "Barfoed’s test", 
+      c: "Benedict’s test", 
+      d: "Iodine test"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "4. What is the principle behind Benedict’s and Fehling’s tests?", 
+    answers: {
+      a: "Oxidation of ketones", 
+      b: "Reduction of copper(II) to copper(I)", 
+      c: "Complex formation", 
+      d: "Hydrolysis of polysaccharides"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "5. Which test would you perform to confirm the presence of monosaccharides specifically?", 
+    answers: {
+      a: "Barfoed’s test", 
+      b: "Molisch’s test", 
+      c: "Iodine test", 
+      d: "Benedict’s test"
+    },
+    correctAnswer: "a"
+  }
 
-    {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
-      answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+              ///// To add more questions, copy the section below 
     									                  ///// this line
 
 

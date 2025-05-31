@@ -1,51 +1,44 @@
 {
+  "details": [
+    {
+      "Experiment": "To perform Qualitative test on Carbohydrates",
+      "Lab": "Basic chemistry Lab",
+      "Discipline": "Department of Applied and Humanities ",
+      "Technology": "HTML CSS Javascript"
+    }
+  ],
 
-   "details": [
-       {
-			"Experiment": "Voltage Distribution Across String Insulators",     
-			"Lab": "Power System Lab",               
-			"Discipline": "Electronics Engineering",				 
-			"Technology": "HTML CSS Javascript"         
-       }
-   ],
+  "developer": [
+    {
+      "Developer": "Mr. Ravish Singh Rajput",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    }
+  ],
 
-   "developer": [
-       {       
-      "Developer": "Mr. Rajeev Baghel",         
-      "Institute": "REC Kannauj",         
-      "InstituteAcronym": "RECK"   
-       }
-   ],
+  "contributer": [
+    {
+      "Contributer": "Satish yadav",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
 
-   "contributer": [
-       {       
-			"Contributer": "Ridam Sharma",             
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       },
+    {
+      "Contributer": "manish Singh",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
 
-       {       
-			"Contributer": "Dhananjay Singh Gaur",              
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       },
+    {
+      "Contributer": "Shani Verma",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    },
 
-       {       
-			"Contributer": "Ichha Shukla",             
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       },
-
-       {       
-			"Contributer": "Satish Kumar",              
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       },
-       {       
-			"Contributer": "Shaili Chauhan",              
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       }
-   ]
-
+    {
+      "Contributer": "Shubham Yadav",
+      "Institute": "REC Kannauj",
+      "InstituteAcronym": "RECK"
+    }
+  ]
 }
