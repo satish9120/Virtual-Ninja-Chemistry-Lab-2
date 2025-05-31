@@ -1,5 +1,4 @@
-### Link your references in here
-References
+### Link your references in her
 Lehninger Principles of Biochemistry – David L. Nelson & Michael M. Cox
 
 For theoretical background on carbohydrate classification and structure.
