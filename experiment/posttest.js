@@ -87,17 +87,21 @@
 
 /////////////// Write the MCQ below in the exactly same described format ///////////////
 
-const myQuestions = [
-  {
-    question: "1. Which reagent is used in the Molisch’s test for carbohydrates?", 
-    answers: {
-      a: "Iodine solution", 
-      b: "Alpha-naphthol", 
-      c: "Benedict’s solution", 
-      d: "Fehling’s solution"
-    },
-    correctAnswer: "b"
-  },
+questions": [
+    {
+      "question": "Which test is used as a general test for all carbohydrates?",
+      "answers": {
+        "a": "Benedict’s test",
+        "b": "Molisch’s test",
+        "c": "Iodine test",
+        "d": "Barfoed’s test"
+      },
+      "explanations": {
+        "a": "Benedict’s test is specific for reducing sugars, not all carbohydrates.",
+        "b": "Correct! Molisch’s test is a general test for carbohydrates, where concentrated sulfuric acid reacts to form a purple ring.",
+        "c": "Iodine test is specific for polysaccharides like starch.",
+        "d": "Barfoed’s test distinguishes monosaccharides from disaccharides."
+      },
   {
     question: "2. A positive iodine test gives which color with starch?", 
     answers: {
