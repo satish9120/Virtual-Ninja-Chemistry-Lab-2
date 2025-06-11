@@ -1,3 +1,3 @@
 ### To perform qualitative tests on carbohydrates 
-To perform qualitative tests to identify the presence and types of carbohydrates (monosaccharides, disaccharides, and polysaccharides) in given samples using chemical reagents.
+To perform a series of qualitative chemical tests to detect the presence of carbohydrates in an unknown sample and subsequently classify them—differentiating reducing versus non‑reducing sugars, monosaccharides versus disaccharides, ketoses versus aldoses, pentoses versus hexoses, and identifying polysaccharides such as starch—based on their distinct chemical and structural characteristics.
 
