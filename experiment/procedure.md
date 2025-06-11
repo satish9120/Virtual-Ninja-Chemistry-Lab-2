@@ -6,13 +6,13 @@ Below is a step-by-step procedure for performing common qualitative tests to ide
 Objective: To confirm the presence of carbohydrates.
 
 Materials Required:
-⚫	Test tube
+.	Test tube
 
-⚫	Molisch’s reagent (α-naphthol in ethanol)
+.	Molisch’s reagent (α-naphthol in ethanol)
 
-⚫	Concentrated sulfuric acid (H₂SO₄)
+.	Concentrated sulfuric acid (H₂SO₄)
 
-⚫	 Sample solution (e.g., glucose, sucrose, starch)
+.	 Sample solution (e.g., glucose, sucrose, starch)
 
 Procedure:
 → Take 2 mL of the sample solution in a test tube.
@@ -33,13 +33,13 @@ Negative Test: No color change (absence of carbohydrates).
 Objective: To detect reducing sugars (e.g., glucose, fructose).
 
 Materials Required:
-⚫	Benedict’s reagent (alkaline copper sulfate)
+.	Benedict’s reagent (alkaline copper sulfate)
 
-⚫	Test tube
+.	Test tube
 
-⚫	Water bath
+.	Water bath
 
-⚫	Sample solution
+.	Sample solution
 
 Procedure:
 → Take 2 mL of Benedict’s reagent in a test tube.
@@ -60,11 +60,11 @@ Negative Test: No change (non-reducing sugar like sucrose).
 Objective: To identify starch.
 
 Materials Required:
-⚫	Iodine solution (I₂ + KI)
+.	Iodine solution (I₂ + KI)
 
-⚫	Test tube
+.	Test tube
 
-⚫	Sample solution
+.	Sample solution
 
 Procedure:
 → Take 2 mL of the sample solution in a test tube.
@@ -83,13 +83,13 @@ Negative Test: No color change (absence of starch).
 Objective: To differentiate monosaccharides (fast-reacting) from disaccharides (slow-reacting).
 
 Materials Required:
-⚫	Barfoed’s reagent (copper acetate in acetic acid)
+.	Barfoed’s reagent (copper acetate in acetic acid)
 
-⚫	Test tube
+.	Test tube
 
-⚫	Water bath
+.	Water bath
 
-⚫	Sample solution
+.	Sample solution
 
 Procedure:
 → Take 1 mL of the sample solution in a test tube.
@@ -110,13 +110,13 @@ Positive for Disaccharides: Red precipitate only after prolonged heating (e.g., 
 Objective: To detect ketoses (e.g., fructose).
 
 Materials Required:
-⚫	Seliwanoff’s reagent (resorcinol in HCl)
+.	Seliwanoff’s reagent (resorcinol in HCl)
 
-⚫	Test tube
+.	Test tube
 
-⚫	Water bath
+.	Water bath
 
-⚫	Sample solution
+.	Sample solution
 
 Procedure:
 → Take 2 mL of Seliwanoff’s reagent in a test tube.
