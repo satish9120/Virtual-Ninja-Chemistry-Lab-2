@@ -87,100 +87,60 @@
 
 /////////////// Write the MCQ below in the exactly same described format ///////////////
 
-questions": [
+
+  const myQuestions = [
     {
-      "question": "Which test is used as a general test for all carbohydrates?",
-      "answers": {
-        "a": "Benedict’s test",
-        "b": "Molisch’s test",
-        "c": "Iodine test",
-        "d": "Barfoed’s test"
+      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
+      answers: {
+        a: " double",                  ///// Write the option 1 inside double quotes
+        b: "four times",                  ///// Write the option 2 inside double quotes
+        c: "eight times",                  ///// Write the option 3 inside double quotes
+        d: "sixteen times"                   ///// Write the option 4 inside double quotes
       },
-      "explanations": {
-        "a": "Benedict’s test is specific for reducing sugars, not all carbohydrates.",
-        "b": "Correct! Molisch’s test is a general test for carbohydrates, where concentrated sulfuric acid reacts to form a purple ring.",
-        "c": "Iodine test is specific for polysaccharides like starch.",
-        "d": "Barfoed’s test distinguishes monosaccharides from disaccharides."
-      },
- explanations": {
-        "a": "Benedict’s test is specific for reducing sugars, not all carbohydrates.",
-        "b": "Correct! Molisch’s test is a general test for carbohydrates, where concentrated sulfuric acid reacts to form a purple ring.",
-        "c": "Iodine test is specific for polysaccharides like starch.",
-        "d": "Barfoed’s test distinguishes monosaccharides from disaccharides."
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
+
     {
-      "question": "Which carbohydrate gives a positive iodine test (blue-black color)?",
-      "answers": {
-        "a": "Glucose",
-        "b": "Sucrose",
-        "c": "Starch",
-        "d": "Fructose"
+      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increases",                  ///// Write the option 1 inside double quotes
+        b: "decreases",                  ///// Write the option 2 inside double quotes
+        c: "remains constant",                  ///// Write the option 3 inside double quotes
+        d: "NOT"                   ///// Write the option 4 inside double quotes
       },
-      "explanations": {
-        "a": "Glucose is a monosaccharide and does not react with iodine.",
-        "b": "Sucrose is a disaccharide and does not give a positive iodine test.",
-        "c": "Correct! Starch, a polysaccharide, forms a blue-black complex with iodine.",
-        "d": "Fructose is a monosaccharide and does not react with iodine."
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below 
+    									                  ///// this line
+
+
+    /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
+        till closing curly braces comma ( }, )
+
+        and paste it below the curly braces comma ( below correct answer }, ) of above 
+        question
+
+    Copy below section
+
+    {
+      question: "This is question n?",
+      answers: {
+        a: "Option 1",
+        b: "Option 2",
+        c: "Option 3",
+        d: "Option 4"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      correctAnswer: "c"
     },
-    {
-      "question": "Benedict’s test is used to detect:",
-      "answers": {
-        "a": "Reducing sugars only",
-        "b": "Non-reducing sugars only",
-        "c": "All carbohydrates",
-        "d": "Proteins"
-      },
-      "explanations": {
-        "a": "Correct! Benedict’s test detects reducing sugars (e.g., glucose, fructose) that form a brick-red precipitate.",
-        "b": "Non-reducing sugars (e.g., sucrose) require hydrolysis first.",
-        "c": "Benedict’s test is not for all carbohydrates, only reducing sugars.",
-        "d": "Proteins are detected by Biuret test, not Benedict’s."
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "Which test distinguishes between monosaccharides and disaccharides?",
-      "answers": {
-        "a": "Fehling’s test",
-        "b": "Barfoed’s test",
-        "c": "Seliwanoff’s test",
-        "d": "Molisch’s test"
-      },
-      "explanations": {
-        "a": "Fehling’s test is similar to Benedict’s and detects reducing sugars.",
-        "b": "Correct! Barfoed’s test differentiates monosaccharides (fast reaction) from disaccharides.",
-        "c": "Seliwanoff’s test is specific for ketoses (e.g., fructose).",
-        "d": "Molisch’s test is a general test for all carbohydrates."
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "Seliwanoff’s test is specific for:",
-      "answers": {
-        "a": "Glucose",
-        "b": "Fructose",
-        "c": "Ketoses (e.g., fructose)",
-        "d": "Starch"
-      },
-      "explanations": {
-        "a": "Glucose is an aldose, not detected by Seliwanoff’s test.",
-        "b": "Fructose is a ketose, but the broader answer is (c).",
-        "c": "Correct! Seliwanoff’s test detects ketoses (like fructose) with a cherry-red color.",
-        "d": "Starch is detected by the iodine test."
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
-    }
-  ]
-}
+
+    Copy above section
+
+    */
+
+
+
+
+  ];
+
 
 
 
