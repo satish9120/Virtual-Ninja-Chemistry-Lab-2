@@ -86,30 +86,61 @@
 
 
 /////////////// Write the MCQ below in the exactly same described format ///////////////
-
-
-  const myQuestions = [
-    {
-      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
-      answers: {
-        a: " double",                  ///// Write the option 1 inside double quotes
-        b: "four times",                  ///// Write the option 2 inside double quotes
-        c: "eight times",                  ///// Write the option 3 inside double quotes
-        d: "sixteen times"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+const myQuestions = [
+  {
+    question: "Which test is used as a general test for all carbohydrates?",
+    answers: {
+      a: "Benedict’s test",
+      b: "Molisch’s test",
+      c: "Iodine test",
+      d: "Barfoed’s test"
     },
+    correctAnswer: "b"
+  },
+  {
+    question: "Which carbohydrate gives a positive iodine test (blue-black color)?",
+    answers: {
+      a: "Glucose",
+      b: "Sucrose",
+      c: "Starch",
+      d: "Fructose"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Benedict’s test is used to detect:",
+    answers: {
+      a: "Reducing sugars only",
+      b: "Non-reducing sugars only",
+      c: "All carbohydrates",
+      d: "Proteins"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "Which test distinguishes between monosaccharides and disaccharides?",
+    answers: {
+      a: "Fehling’s test",
+      b: "Barfoed’s test",
+      c: "Seliwanoff’s test",
+      d: "Molisch’s test"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Seliwanoff’s test is specific for:",
+    answers: {
+      a: "Glucose",
+      b: "Fructose",
+      c: "Ketoses (e.g., fructose)",
+      d: "Starch"
+    },
+    correctAnswer: "c"
+  }
+];
 
-    {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
-      answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+
+             ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
