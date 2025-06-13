@@ -87,79 +87,50 @@
 
 /////////////// Write the MCQ below in the exactly same described format ///////////////
 
+const myQuestions = [
+  {
+    question: "Which carbohydrate gives a positive iodine test (blue-black color)?",
+    answers: {
+      a: "Glucose",
+      b: "Sucrose",
+      c: "Starch",
+      d: "Fructose"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "Benedict’s test is used to detect:",
+    answers: {
+      a: "Reducing sugars only",
+      b: "Non-reducing sugars only",
+      c: "All carbohydrates",
+      d: "Proteins"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "Which test distinguishes between monosaccharides and disaccharides?",
+    answers: {
+      a: "Fehling’s test",
+      b: "Barfoed’s test",
+      c: "Seliwanoff’s test",
+      d: "Molisch’s test"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "Seliwanoff’s test is specific for:",
+    answers: {
+      a: "Glucose",
+      b: "Fructose",
+      c: "Ketoses (e.g., fructose)",
+      d: "Starch"
+    },
+    correctAnswer: "c"
+  }
+];
 
-    {
-      "question": "Which carbohydrate gives a positive iodine test (blue-black color)?",
-      "answers": {
-        "a": "Glucose",
-        "b": "Sucrose",
-        "c": "Starch",
-        "d": "Fructose"
-      },
-      "explanations": {
-        "a": "Glucose is a monosaccharide and does not react with iodine.",
-        "b": "Sucrose is a disaccharide and does not give a positive iodine test.",
-        "c": "Correct! Starch, a polysaccharide, forms a blue-black complex with iodine.",
-        "d": "Fructose is a monosaccharide and does not react with iodine."
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "Benedict’s test is used to detect:",
-      "answers": {
-        "a": "Reducing sugars only",
-        "b": "Non-reducing sugars only",
-        "c": "All carbohydrates",
-        "d": "Proteins"
-      },
-      "explanations": {
-        "a": "Correct! Benedict’s test detects reducing sugars (e.g., glucose, fructose) that form a brick-red precipitate.",
-        "b": "Non-reducing sugars (e.g., sucrose) require hydrolysis first.",
-        "c": "Benedict’s test is not for all carbohydrates, only reducing sugars.",
-        "d": "Proteins are detected by Biuret test, not Benedict’s."
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "Which test distinguishes between monosaccharides and disaccharides?",
-      "answers": {
-        "a": "Fehling’s test",
-        "b": "Barfoed’s test",
-        "c": "Seliwanoff’s test",
-        "d": "Molisch’s test"
-      },
-      "explanations": {
-        "a": "Fehling’s test is similar to Benedict’s and detects reducing sugars.",
-        "b": "Correct! Barfoed’s test differentiates monosaccharides (fast reaction) from disaccharides.",
-        "c": "Seliwanoff’s test is specific for ketoses (e.g., fructose).",
-        "d": "Molisch’s test is a general test for all carbohydrates."
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "Seliwanoff’s test is specific for:",
-      "answers": {
-        "a": "Glucose",
-        "b": "Fructose",
-        "c": "Ketoses (e.g., fructose)",
-        "d": "Starch"
-      },
-      "explanations": {
-        "a": "Glucose is an aldose, not detected by Seliwanoff’s test.",
-        "b": "Fructose is a ketose, but the broader answer is (c).",
-        "c": "Correct! Seliwanoff’s test detects ketoses (like fructose) with a cherry-red color.",
-        "d": "Starch is detected by the iodine test."
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
-    }
-  ]
-}
- 
-
+   
 
 /////////////////////////////////////////////////////////////////////////////
 
